@@ -1,0 +1,45 @@
+body,
+ul {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 2px solid cornflowerblue;
+  padding: 0px 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.drop-it-down {
+  list-style: none;
+  padding: 10px 20px;
+}
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  list-style: none;
+  padding: 0px;
+  border: 2px solid cornflowerblue;
+}
+.drop-it-down:hover .sub-menu {
+  display: block;
+}
+
+.active {
+  color: cornflowerblue;
+}
+.sub-menu-item {
+  padding: 5px;
+}
+.sub-menu-item:hover {
+  background: cornflowerblue;
+  color: white;
+}
+.sub-menu-item:hover a {
+  color: white;
+}
